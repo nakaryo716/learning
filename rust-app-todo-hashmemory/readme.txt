@@ -1,1 +1,1 @@
-hashmapを使ってTodoアプリの作成を示す。
+このコードはhashmapを使ってTodoアプリの作成を示す。

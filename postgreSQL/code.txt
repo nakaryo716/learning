@@ -1,0 +1,29 @@
+ログイン
+psql -U admin {データベース名}
+
+データベース一覧表示
+\l
+
+テーブル一覧表示
+\dt
+
+データベース移動
+\c {データベース名}
+
+データベース作成
+create database {データベース名};
+
+テーブル作成
+create table {テーブル名} (id integer primary key, name varcher (20) );
+
+create
+insert into {テーブル名}　values (key, 'value');
+
+find
+select * from book;
+
+update
+update book set name = {'value'} where id = {key};
+
+delete
+delete from {{テーブル名}} where id = {key};
